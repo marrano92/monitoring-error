@@ -1,0 +1,17 @@
+[01-Aug-2019 16:05:33 Europe/Rome] PHP Warning:  file(logs/php_error.log): failed to open stream: No such file or directory in /srv/www/motorksites/drivekms/htdocs/public/wp-content/plugins/monitoring-error/includes/Moerr/OptionPage.php on line 111
+[01-Aug-2019 16:05:33 Europe/Rome] PHP Stack trace:
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   1. {main}() /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/options-general.php:0
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   2. require_once() /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/options-general.php:10
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   3. do_action($tag = 'settings_page_Moerr/OptionPage', $arg = *uninitialized*) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/admin.php:253
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   4. WP_Hook->do_action($args = array (0 => '')) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/plugin.php:465
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   5. WP_Hook->apply_filters($value = '', $args = array (0 => '')) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/class-wp-hook.php:310
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   6. Moerr\OptionPage->render('') /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/class-wp-hook.php:286
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   7. file('logs/php_error.log', 1) /srv/www/motorksites/drivekms/htdocs/public/wp-content/plugins/monitoring-error/includes/Moerr/OptionPage.php:111
+[01-Aug-2019 16:05:33 Europe/Rome] PHP Warning:  Invalid argument supplied for foreach() in /srv/www/motorksites/drivekms/htdocs/public/wp-content/plugins/monitoring-error/includes/Moerr/OptionPage.php on line 117
+[01-Aug-2019 16:05:33 Europe/Rome] PHP Stack trace:
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   1. {main}() /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/options-general.php:0
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   2. require_once() /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/options-general.php:10
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   3. do_action($tag = 'settings_page_Moerr/OptionPage', $arg = *uninitialized*) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-admin/admin.php:253
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   4. WP_Hook->do_action($args = array (0 => '')) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/plugin.php:465
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   5. WP_Hook->apply_filters($value = '', $args = array (0 => '')) /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/class-wp-hook.php:310
+[01-Aug-2019 16:05:33 Europe/Rome] PHP   6. Moerr\OptionPage->render('') /srv/www/motorksites/drivekms/htdocs/public/wp/wp-includes/class-wp-hook.php:286
